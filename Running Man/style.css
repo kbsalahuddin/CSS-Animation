@@ -1,0 +1,28 @@
+.samurai{
+	position: absolute;
+	top:30%; left: 42%;
+	width: 210.666px;
+	height:290px;
+	background: url(running-man.jpg);
+	animation: playX 1s steps(6) infinite/*,
+			   playY 6.1s steps(6) infinite*/;
+			   	
+
+}
+
+@keyframes playX{
+	from { background-position-x: 0px;
+		}
+	to {
+		background-position-x: -1264px; 
+	}	
+}
+/*for multiple row sprite sheet*/
+/*@keyframes playY{
+	from{
+		background-position-y:0px; 
+	}
+	to{
+		background-position-y:-580px; 
+	}
+}
